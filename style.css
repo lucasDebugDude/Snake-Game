@@ -1,0 +1,61 @@
+body {
+  background: #87ceeb;
+  font-family: Tahoma, Verdana, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xp-window {
+  background: #bfc7c9;
+  border: 2px solid transparent;
+  box-shadow: 2px 2px 0 #404040;
+  width: fit-content;
+}
+
+.xp-titlebar {
+  background: #0a246a;
+  color: white;
+  padding: 4px 8px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #808080;
+}
+
+.close-button {
+  cursor: pointer;
+  font-family: monospace;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 16px;
+  padding: 0 4px;
+  user-select: none;
+  outline: none;
+  transition: color 0.2s;
+}
+
+.close-button:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.xp-body {
+  padding: 8px;
+  background-color: #ffffff;
+}
+
+#game {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.1;
+  color: black;
+  white-space: pre;
+  text-align: left;
+  min-width: calc(20ch + 2ch); /* largura da arena + bordas */
+  min-height: calc(10lh + 2lh); /* altura da arena + bordas */
+}

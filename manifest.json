@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Snake ASCII XP",
+  "version": "1.0",
+  "description": "Retro ASCII Snake game styled like Windows XP.",
+  "action": {
+    "default_popup": "snake.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
